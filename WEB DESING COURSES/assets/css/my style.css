@@ -1,0 +1,225 @@
+* {
+    Margin: 0;
+    Padding: 0;
+    background-image: url(P-IMG-20231129-WA0253);
+
+}
+
+.main {
+    Width: 100% 100%;
+    Background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(../../images/clhomb6o50001jx08iueyuo2r_1.jpg);
+    Background-position:center;
+    Background-size: cover;
+    Height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    Width: 1200px;
+    Height: 90px;
+    Margin: auto;
+}
+
+.icon {
+    Width: 200px;
+    Float: left;
+    Height: 70px;
+}
+
+.logo {
+    color:#ff7200;
+    font-size: 30px;
+    Font-family: Arial;
+    Float: left;
+    Padding-top: 10px;
+    Margin-top: 5px;
+
+}
+
+.menu {
+    Width: 400px;
+    padding-right: 400px;
+    Float: left;
+    Height: 100px;
+}
+
+Ul {
+    margin-left: 20px;
+    Float: left;
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+}
+
+Ul li {
+    margin: 20px;
+    display: flex;
+    List-style: none;
+    
+    Font-size: 14px;
+}
+
+Ul li a {
+    flex-direction: column;
+    Text-decoration: none;
+    Color: #fff;
+    Font-family: Arial;
+    Font-weight: bold;
+    Transition: 0.4s ease-in-out;
+}
+
+Ul li a:hover {
+    Color: #ff7200;
+}
+
+.content {
+    Width: 1200px;
+    Height: 0;
+    Margin: 0;
+    Color: #fff;
+    Position: relative;
+}
+
+
+.content h1 {
+    Font-family: ‘Times New Roman’;
+    Font-size: 50px;
+    Padding-left: 370px;
+    Margin-top:0;
+    Letter-spacing: 2px;
+    text-align: center;
+}
+
+
+.content span {
+    Color: #ff7200;
+    Font-size: 65px
+}
+
+.form {
+
+    Width: 277px;
+    Height: 385px;
+    Background: linear-gradient(to top, rgba(7, 0, 0, 0.705)50%, rgba(0, 0, 0, 0.705)50%);
+    background-size:cover;
+    Position: absolute;
+    Top:210px;
+    Left:600px;
+    Transform: translate(0%, -5%);
+    Border-radius: 10px;
+    Padding: 25px 40px;
+}
+.form #input{
+    margin: auto;
+    padding-top: 15px;
+    
+}
+.form h2 {
+    Width: 260px;
+    Font-family: sans-serif;
+    Text-align: center;
+    Color: #ff7200;
+    Font-size: 30px;
+    Border-radius: 30px;
+    Margin: 2px;
+    Padding: 8px;
+}
+
+.form input {
+    Width: 250px;
+    Height: 40px;
+    Background: transparent;
+    Border-bottom: 1px solid #ff7200;
+    border-top: none;
+    Border-right: none;
+    Border-left: none;
+    Color: #fff;
+    Font-size: 15px;
+    Letter-spacing: 1px;
+    Margin-top: 32px;
+    Font-family: sans-serif;
+}
+
+.form input:focus {
+    Outline: none;
+}
+
+::placeholder {
+    Color: #fff;
+    Font-family: bold;
+}
+
+.btnn {
+    Width: 278px;
+    Height: 40px;
+    Background: #ff7200;
+    Border: none;
+    Margin-top: 30px;
+    Font-size: 18px;
+    Border-radius: 20px;
+    Cursor: pointer;
+    Color: #fff;
+    Transition: 0.4s ease;
+}
+
+.btnn:hover {
+    Background: #fff;
+    Color: #ff7200;
+}
+
+.btnn a {
+    Text-decoration: none;
+    Color: #000;
+    Font-weight: bold;
+}
+
+.form .link {
+    Font-family: Arial, Helvetica, sans-serif;
+    Font-size: 17px;
+    Padding-top: 20px;
+    Text-align: center;
+}
+
+.form .link a {
+    Text-decoration: none;
+    Color: #ff7200;
+}
+
+.liw {
+    Padding-top: 15px;
+    Padding-bottom: 10px;
+    Text-align: center;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icons a {
+    Text-decoration: none;
+    Color: #fff;
+}
+
+.icons ion-icon {
+    Color: #fff;
+    Font-size: 35px;
+    Transition: 0.5s ease;
+}
+
+.icons ion-icon:hover {
+    Color: #ff7200;
+}
+
+.fot{
+    margin-top: -50px;
+    color: #fff;
+    font-family:'bold';
+    font-size: 20px;
+    text-align: center;
+    justify-items: end;
+    padding: 10px;
+    padding-right: 50px;
+}
